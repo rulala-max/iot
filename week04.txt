@@ -1,2 +1,6 @@
 리눅스명령어
 cp 원본파일 복사파일
+
+
+깃명령어
+git log --oneline --graph
