@@ -1,6 +1,12 @@
 리눅스명령어
 cp 원본파일 복사파일
+touch 파일 파일 파일
 
 
 깃명령어
+
 git log --oneline --graph git log --graph --oneline
+
+
+기타
+.gitignore 파일 :깃에서 관리하지않는 파일(변경 표시안됨)
