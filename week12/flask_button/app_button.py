@@ -136,13 +136,14 @@ def reset_game():
 if __name__ == '__main__':
     try:
         # 재시작 방지 및 프로덕션 모드
-        import os
-        os.environ['WERKZEUG_RUN_MAIN'] = 'true'
+        #import os
+        #os.environ['WERKZEUG_RUN_MAIN'] = 'true'
         print("반응속도 게임 서버 시작...")
         print("http://0.0.0.0:5000 접속하세요")
-        app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)
+        app.run(host='0.0.0.0', port=5000,  use_reloader=False)
     except KeyboardInterrupt:
         print("\n서버를 종료합니다...")
     finally:
         led.off()
         print("GPIO 정리 완료")
+       
